@@ -1,0 +1,53 @@
+/* Styles for header components*/
+/* News component styles */
+.news-container {
+    display: flex;
+    gap: 0.25rem;
+    flex: 1;
+  }
+  
+  .news-heading {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .news-item {
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+  
+  .news-item:last-child {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  /* Search component styles */
+  .search-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: #1a265c;
+    border-radius: 0.375rem;
+  }
+  
+  .search-icon {
+    font-size: 1.125rem;
+  }
+  
+  /* SocialMedia component styles */
+  .social-media-container {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 2rem;
+    color: #f7ca18;
+  }
+  

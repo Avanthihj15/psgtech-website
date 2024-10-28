@@ -1,0 +1,241 @@
+.bg-primary-overlay
+{
+    /*background-color: rgba(0, 0, 255, 0.85); /* Adjust the color and opacity as needed */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+  height: auto; /* Adjust the height of the carousel */
+  overflow: hidden; /* Hide any overflow content */
+  width: auto;
+  width: 100%;
+  position: relative;
+
+}
+
+.carousel .slide {
+  height: 600px; /* Set a specific height for the slides */
+  background-size: cover; /* Ensure background images cover the entire slide */
+  background-position: center; /* Center the background images */
+ 
+}
+
+.caption-container {
+    position: absolute;
+    bottom: 15px;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    /*background-color: rgba(0, 0, 255, 0.85);  Adjust as needed */
+    padding: 5px 20px;
+    cursor: pointer;
+    z-index: 10; /* Ensure it's above the sliding content */
+    border-radius: 5px;
+  }
+  .dropdown-symbol {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .additional-content {
+    position: fixed;
+    bottom: -100vh; /* Start hidden below the viewport */
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background: rgba(255, 255, 255, 0.95); /* Slightly transparent white background */
+    color: #000;
+    overflow: auto;
+    text-align: center;
+    padding: 1rem;
+    transform: translateY(100%);  /*Hide initially */
+    transition: transform 0.5s ease-in-out; /* Smooth slide-up effect */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .additional-content.open {
+    
+    transform: translateY(0); /* Slide up effect */
+  }
+
+
+  .carousel-hidden {
+    display: none;
+}
+
+
+.carousel .slide img {
+  width: 100%; /* Ensure images take full width of their container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the slide area */
+}
+
+.carousel .slide {
+  width: 100%; /* Ensure slides take full width of the carousel */
+  height: 600px; /* Maintain the height for the slides */
+  display: flex; /* Flex to center content if needed */
+  align-items: center; /* Center the content vertically */
+}
+
+
+/* Ensure to define your primary color somewhere in your CSS */
+:root {
+    --primary-color: #1a265c; 
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+  
+  .py-2 {
+    padding-top: 0.15rem;
+    padding-bottom: 0.10rem;
+  }
+  
+  .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
+  .container-paragraph {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    margin: 20px auto; /* Center the container horizontally */
+    width: 800px; /* Set a maximum width for the container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+
+  
+h1, h4 {
+    text-align: left; /* Center align headers */
+  }
+  
+  p {
+    margin-bottom: 15px; /* Space between paragraphs */
+  }
+
+  .content-container {
+    padding: 50px;
+  }
+  
+  .paragraph-container {
+    margin: 20px 0;
+    margin-right: 50px;
+    margin-left: 30px;
+    font-family:sans-serif;
+    color: #686161;
+  }
+
+  .container-style {
+    border: 0px solid #4f4d4d;
+    padding: 10px;
+    width: 1000px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 100px;
+  }
+ 
+ .heading-container {
+    margin-right: 50px;
+    margin-left: 160px;
+    font-family:sans-serif;
+    color: #000;
+ }
+
+.thick-hr {
+    border: none; /* Remove the default border */
+    border-top: 5px solid #000; /* Add a custom border with thickness and color */
+    margin: 5px 20px; /* Adjust the margins as needed */
+   
+    
+    width: 4%;
+    margin-left: 160px;
+  }
+
+
+  .read-more-link {
+    color: #3449a4;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .heading-v {
+    color: #000;
+  }
+
+  .heading-m {
+    color: #000;
+  }
+
+.thick-hr1 {
+    border-top: 1px solid #d6d6d6; /* Add a custom border with thickness and color */
+    
+}
+
+.carousel .thumbs {
+    display: none !important;
+  }
+
+
+  .carousel .control-dots {
+    display: none !important;
+  }
+  .carousel .control-dots {
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Hide control dots' active state */
+  .carousel .control-dot.active {
+    background: transparent !important;
+  }
+
+
+
+  
+  
+  
+  
+  .left-tx {
+    left: 50%;
+  }
+
+  .right-tx {
+    right: 50%;
+  }
+  
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .w-full {
+    width: 100%;
+  }

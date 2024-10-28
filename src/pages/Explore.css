@@ -1,0 +1,501 @@
+.explore-container {
+    width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #000; /* Set the color to black */
+    /*font-weight: bold; /* Make the text bold */
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+/*p {
+    font-size: 1rem;
+    color: #686161;
+    /*font-weight: bold; /* Keep it bold */
+/*}*/
+
+p {
+    font-size: 1rem; /* Adjust the font size if needed */
+    color: #686161;
+    font-weight: normal; /* Make sure the text is not bold */
+    text-align: justify; /* Align text to the left */
+    width: 100%; /* Adjust the width to control the line breaks */
+    margin: 0; /* Center the paragraph on the page */
+    line-height: 1.5rem; /* Adjust line height for better readability */
+    word-wrap: break-word;
+    /*margin-left: auto;*/
+    /*margin-right: 20px;*/
+    /*direction: rtl; /* Make text read from right to left */
+    /*unicode-bidi: plaintext; /* Keep the natural order of characters */
+    /*text-indent: -1.5rem;*/
+    /*padding-right: 1.5rem;*/
+    margin-left: 0px; /* No margin on the left */
+    padding-left: 20px; /* Add padding to align text */
+    text-indent: 0; /* Remove indent */
+    
+}
+
+.p-content {
+    width: 50%;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #333;
+    
+}
+
+.explore-content {
+    display: flex;
+    justify-content: center; /* Center the image and text content */
+    align-items: center; /* Align items to the top */
+    gap: 20px; /* Add space between the image and the text */
+    /*padding-left: 20px; /* Add some padding to the right */
+}
+
+.explore-image {
+    width: 500px; /* Adjust the image size */
+    height: auto; /* Keep the image proportions */
+    margin-left: 80px;
+    /*margin-right: auto;*/
+    
+}
+
+.explore-text {
+    flex: 1; /* Take up remaining space */
+    text-align: center; /* Align the text to the right */
+}
+
+.button-container {
+    text-align: center; /* Center the button */
+    margin-top: 20px;
+    color: #FFD700;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  background-color: #eeb806;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.navbar {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+
+}
+
+/*
+.carousel-container {
+    margin-top: 20px;
+    width: 300%;
+    height: 50px; /* Adjust the height of the carousel */
+    /*background-color: transparent;  Remove background */
+   /* margin: 0;
+    padding: 0;
+}*/
+
+.carousel .slide text {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images fit the carousel dimensions */
+}
+
+/*
+.text-slide {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}*/
+
+
+/* Sliding text container */
+.sliding-text {
+    display: flex;
+    animation: slide-animation 40s infinite; /* Total duration based on 4 slides (10s each) */
+  }
+
+
+/* Individual slide styles */
+.slide {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color:#fff;
+    background: linear-gradient(135deg,#1a265c, #1e3183, #1f4484); /* Gradient from dark blue to lighter blue */
+    background-size: cover; /* Ensure the gradient covers the entire slide */
+    flex-shrink: 0; /* Prevent shrinking */
+    min-height: 150px; /* Set a minimum height for visibility */
+    margin-top:100px;
+    font-style: Arial,sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/* Slide animation */
+@keyframes slide-animation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); } /* Stay on the first slide for 10s */
+    30% { transform: translateX(-100%); } /* Slide to the second slide */
+    55% { transform: translateX(-100%); } /* Stay on the second slide for 10s */
+    60% { transform: translateX(-200%); } /* Slide to the third slide */
+    85% { transform: translateX(-200%); } /* Stay on the third slide for 10s */
+    90% { transform: translateX(-300%); } /* Slide to the fourth slide */
+    100% { transform: translateX(-300%); } /* Stay on the fourth slide for 10s */
+  }
+
+
+.slide p {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.explore-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #000; /* Set the color to black */
+    /*font-weight: bold; /* Make the text bold */
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+/*p {
+    font-size: 1rem;
+    color: #686161;
+    /*font-weight: bold; /* Keep it bold */
+/*}*/
+
+p {
+    font-size: 1rem; /* Adjust the font size if needed */
+    color: #686161;
+    font-weight: normal; /* Make sure the text is not bold */
+    text-align: justify; /* Align text to the left */
+    width: 100%; /* Adjust the width to control the line breaks */
+    margin: 0; /* Center the paragraph on the page */
+    line-height: 1.5rem; /* Adjust line height for better readability */
+    word-wrap: break-word;
+    /*margin-left: auto;*/
+    /*margin-right: 20px;*/
+    /*direction: rtl; /* Make text read from right to left */
+    /*unicode-bidi: plaintext; /* Keep the natural order of characters */
+    /*text-indent: -1.5rem;*/
+    /*padding-right: 1.5rem;*/
+    margin-left: 0px; /* No margin on the left */
+    padding-left: 20px; /* Add padding to align text */
+    text-indent: 0; /* Remove indent */
+    
+}
+
+.p-content {
+    width: 50%;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #333;
+    
+}
+
+.explore-content {
+    display: flex;
+    justify-content: center; /* Center the image and text content */
+    align-items: center; /* Align items to the top */
+    gap: 20px; /* Add space between the image and the text */
+    /*padding-left: 20px; /* Add some padding to the right */
+}
+
+.explore-image {
+    width: 500px; /* Adjust the image size */
+    height: auto; /* Keep the image proportions */
+    margin-left: 80px;
+    /*margin-right: auto;*/
+    
+}
+
+.explore-text {
+    flex: 1; /* Take up remaining space */
+    text-align: center; /* Align the text to the right */
+}
+
+.button-container {
+    text-align: center; /* Center the button */
+    margin-top: 20px;
+    color: #FFD700;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  background-color: #eeb806;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+
+.navbar {
+    /*margin-top: 20px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;*/
+    margin-top: 20px; /* Adjust this value as needed */
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0; /* Adjust the vertical padding to move text */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    /*justify-content: space-between;*/
+
+    
+    
+}
+
+.navbar p {
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Make sure the text is visible */
+    margin: 0; /* Remove any default margin */
+}
+
+
+
+
+
+navbar h2 {
+    position: relative;
+    top: -50px; /* This moves the text upwards by 10px. Adjust as needed. */
+    font-size: 1.5rem;
+    color: white;
+    text-align: right; /* Center the text horizontally */
+    margin: 0; /* Remove extra margin */
+    padding-left: 20px;
+}
+/*
+.carousel-container {
+    margin-top: 20px;
+    width: 300%;
+    height: 50px; /* Adjust the height of the carousel */
+    /*background-color: transparent;  Remove background */
+   /* margin: 0;
+    padding: 0;
+}*/
+
+.carousel .slide text {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images fit the carousel dimensions */
+   
+}
+
+/*
+.text-slide {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}*/
+
+
+/* Sliding text container */
+.sliding-text {
+    display: flex;
+    animation: slide-animation 20s infinite; /* Total duration based on 4 slides (10s each) */
+    margin-top: 20px; 
+    
+  }
+
+
+/* Individual slide styles */
+.slide {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color:#fff;
+    background: linear-gradient(135deg,#1a265c, #1e3183, #1f4484); /* Gradient from dark blue to lighter blue */
+    background-size: cover; /* Ensure the gradient covers the entire slide */
+    flex-shrink: 0; /* Prevent shrinking */
+    min-height: 150px; /* Set a minimum height for visibility */
+    margin-top:100px;
+    font-style: Arial,sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; /* Space between box and text */
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center; /* Align text to the left */
+    font-size: 1.2rem;
+    color: #fff;
+    background: linear-gradient(135deg, #1a265c, #1e3183, #1f4484);
+    flex-shrink: 0;
+    min-height: 150px;
+    font-style: Arial, sans-serif;
+    font-weight: 600;
+    gap: 30px; /* Space between date box and text */
+}
+
+
+
+
+
+
+
+/* Slide animation */
+@keyframes slide-animation {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); } /* Stay on the first slide for 10s */
+    30% { transform: translateX(-100%); } /* Slide to the second slide */
+    55% { transform: translateX(-100%); } /* Stay on the second slide for 10s */
+    60% { transform: translateX(-200%); } /* Slide to the third slide */
+    85% { transform: translateX(-200%); } /* Stay on the third slide for 10s */
+    90% { transform: translateX(-300%); } /* Slide to the fourth slide */
+    100% { transform: translateX(-300%); } /* Stay on the fourth slide for 10s */
+  }
+
+
+.slide p {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1.5rem;
+}
+
+
+
+.date-box {
+    width: 50px; /* Width of the square box */
+    height: 50px; /* Height of the square box */
+    background-color: #eeb806; /* Yellow color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -395px; /* Spacing between the box and text */
+    margin-right: 140px;
+    margin-top: -20px;
+    
+    margin-bottom: -90px;
+    padding: 2px;
+    border-radius: 5px;
+    min-width: 60px; /* Ensure box is wide enough */
+    text-align: center; /* Center text inside the box */
+}
+
+
+
+
+
+
+.date-box1 {
+    width: 50px; /* Width of the square box */
+    height: 50px; /* Height of the square box */
+    background-color: #4d5fd3; /* Yellow color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left: 420px; /* Spacing between the box and text */
+    margin-right: 600px;
+    transform: translateY(-10%); 
+    margin-top: -90px;
+    margin-bottom: -70px;
+    padding: 2px;
+    color: #fff;
+    border-radius: 5px;
+    min-width: 60px; /* Ensure box is wide enough */
+    text-align: center; /* Center text inside the box */
+}
+
+
+
+.date-box span {
+    display: block; /* Display each line as a block element */
+}
+
+
+
+.date-box .date {
+    font-size: 1.5rem; /* Larger text for the date */
+    font-weight: bold;
+    color: #fff; /* White text for date */
+    line-height: 1; /* No extra space */
+}
+
+.date-box .month {
+    font-size: 0.8rem; /* Smaller text for the month */
+    color: #fff; /* White text for month */
+    text-transform: uppercase; /* Ensure month is in uppercase */
+}
+
+
+
+.container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px;
+    border: 1px solid #ddd; /* Light border to define the box */
+    border-radius: 0; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    background-color: #fff; /* Background color */
+    margin: 20px auto; /* Centered horizontally */
+    padding: 0;
+}
+
+.container-box img {
+    width: 100%; /* Make the image responsive to the container width */
+    border-radius: 0px; /* Optional: Rounded corners for the image */
+    object-fit: cover;
+}
+
+.container-box .text {
+    margin-top: 10px; /* Spacing between the image and text */
+    text-align: center; /* Center-align text */
+}
+
+.container-box .text p {
+    margin: 0; /* Remove default margin for paragraphs */
+    color: #333; /* Text color */
+    font-size: 14px; /* Font size */
+}
+
+
+.container-row {
+    display: flex;
+    justify-content: space-around; /* Space between the boxes */
+    flex-wrap: wrap; /* Wrap the boxes to the next line if they don't fit */
+    gap: 20px; /* Adjust space between containers */
+    margin-top: 20px; /* Add some space from the content above */
+}
+
+
+

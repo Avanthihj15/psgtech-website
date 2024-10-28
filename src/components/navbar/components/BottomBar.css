@@ -1,0 +1,53 @@
+.bottom-bar
+{
+  display:flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  
+}
+
+.bottom-bar-section
+{
+  display: flex;
+  gap: 2.5rem;
+ 
+}
+
+.explore-nav {
+  background-color: grey; /* Grey background for Explore page */
+}
+
+.bottom-bar {
+  background-color: white; /* Default white background */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+
+.bottom-bar-section,
+.second-section {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  font-weight: 600; /* Ensures consistent font weight */
+  color: var(--primary-color); /* Ensures consistent text color */
+  font-size: 1rem; /* Ensures consistent font size */
+}
+
+/* Ensure second section is aligned properly */
+.second-section {
+  margin-left: auto; /* Pushes the second section to the right */
+}
+
+/* Optional: Add a hover effect to all items if needed */
+.bottom-bar-section p,
+.second-section p {
+  cursor: pointer;
+  margin: 0;
+}
+
+.bottom-bar-section p:hover,
+.second-section p:hover {
+  color: var(--secondary-color); /* Change to the secondary color on hover if needed */
+}

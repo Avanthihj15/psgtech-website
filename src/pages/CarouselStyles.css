@@ -1,0 +1,21 @@
+.carousel .control-dots{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+}
+
+.carousel .control-dots .dot {
+    background-color: #fff; /* Color of the dots */
+    border-radius: 50%;
+    width: 8px; /* Size of the dots */
+    height: 8px;
+    margin: 0 5px; /* Space between the dots */
+    opacity: 0.5; /* Adjust the opacity if needed */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  }
+  
+  .carousel .control-dots .dot.selected {
+    opacity: 1; /* Make the selected dot fully opaque */
+  }
