@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/psgtech-website/static/css/main.d3955133.css",
+    "main.js": "/psgtech-website/static/js/main.759e6d68.js",
+    "static/js/453.b7dc37a8.chunk.js": "/psgtech-website/static/js/453.b7dc37a8.chunk.js",
+    "static/media/carousel1.jpeg": "/psgtech-website/static/media/carousel1.987c3af328e87b3d7e3b.jpeg",
+    "static/media/carousel2.jpeg": "/psgtech-website/static/media/carousel2.cf85296b298874b9440b.jpeg",
+    "static/media/carousel3.jpeg": "/psgtech-website/static/media/carousel3.34d73b48d917004711f6.jpeg",
+    "static/media/rconclave.jpg": "/psgtech-website/static/media/rconclave.7e7f67d4d9007c223285.jpg",
+    "static/media/yoga-day.jpg": "/psgtech-website/static/media/yoga-day.9a1616e0814ecb56949c.jpg",
+    "static/media/poppins-all-400-italic.woff": "/psgtech-website/static/media/poppins-all-400-italic.ddc0512bc460f10e006c.woff",
+    "static/media/poppins-all-400-normal.woff": "/psgtech-website/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
+    "static/media/poppins-all-600-normal.woff": "/psgtech-website/static/media/poppins-all-600-normal.ef66d5cebf31c6a23603.woff",
+    "static/media/poppins-all-500-normal.woff": "/psgtech-website/static/media/poppins-all-500-normal.4716bc1dd9f51751d3ef.woff",
+    "static/media/poppins-all-700-normal.woff": "/psgtech-website/static/media/poppins-all-700-normal.34a71a4b9d011ddf66e9.woff",
+    "static/media/exp.jpg": "/psgtech-website/static/media/exp.333b741821a4ab5de00d.jpg",
+    "static/media/poppins-devanagari-400-italic.woff2": "/psgtech-website/static/media/poppins-devanagari-400-italic.4157d9bb9108d66d8269.woff2",
+    "static/media/poppins-devanagari-400-normal.woff2": "/psgtech-website/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/poppins-devanagari-600-normal.woff2": "/psgtech-website/static/media/poppins-devanagari-600-normal.3343afa6b8c01e48a23b.woff2",
+    "static/media/poppins-devanagari-700-normal.woff2": "/psgtech-website/static/media/poppins-devanagari-700-normal.349ed9fa39221b45ae9a.woff2",
+    "static/media/poppins-devanagari-500-normal.woff2": "/psgtech-website/static/media/poppins-devanagari-500-normal.f43b6ebf46ee6fba0555.woff2",
+    "static/media/logo.svg": "/psgtech-website/static/media/logo.f67e0a11bfc4d096df624ae792bb2bc6.svg",
+    "static/media/poppins-latin-400-italic.woff2": "/psgtech-website/static/media/poppins-latin-400-italic.ed357fa1fa06a3e00d46.woff2",
+    "static/media/poppins-latin-600-normal.woff2": "/psgtech-website/static/media/poppins-latin-600-normal.91145014c0350c248ed2.woff2",
+    "static/media/poppins-latin-400-normal.woff2": "/psgtech-website/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-700-normal.woff2": "/psgtech-website/static/media/poppins-latin-700-normal.d86662fe776dae29ea78.woff2",
+    "static/media/poppins-latin-500-normal.woff2": "/psgtech-website/static/media/poppins-latin-500-normal.08491d3f7fe7ae88ef44.woff2",
+    "static/media/poppins-latin-ext-400-italic.woff2": "/psgtech-website/static/media/poppins-latin-ext-400-italic.e1a411cc63cfee23efaa.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/psgtech-website/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "static/media/poppins-latin-ext-600-normal.woff2": "/psgtech-website/static/media/poppins-latin-ext-600-normal.d08f0891e438248ce419.woff2",
+    "static/media/poppins-latin-ext-500-normal.woff2": "/psgtech-website/static/media/poppins-latin-ext-500-normal.b59bcdf2f050e663ca29.woff2",
+    "static/media/poppins-latin-ext-700-normal.woff2": "/psgtech-website/static/media/poppins-latin-ext-700-normal.63d2a69665d58b22ceea.woff2",
+    "index.html": "/psgtech-website/index.html",
+    "main.d3955133.css.map": "/psgtech-website/static/css/main.d3955133.css.map",
+    "main.759e6d68.js.map": "/psgtech-website/static/js/main.759e6d68.js.map",
+    "453.b7dc37a8.chunk.js.map": "/psgtech-website/static/js/453.b7dc37a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3955133.css",
+    "static/js/main.759e6d68.js"
+  ]
+}
